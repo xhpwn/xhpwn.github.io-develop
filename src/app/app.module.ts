@@ -10,6 +10,7 @@ import { AppRoutingModule } from "app/app.routing";
 import { ResumedwnldComponent } from './resumedwnld/resumedwnld.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CreationsComponent } from './creations/creations.component';
+import { EpioneComponent } from "./epione/epione.component";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CreationsComponent } from './creations/creations.component';
     HomeComponent,
     ResumedwnldComponent,
     ProjectsComponent,
-    CreationsComponent
+    CreationsComponent,
+    EpioneComponent
   ],
   imports: [
     BrowserModule,

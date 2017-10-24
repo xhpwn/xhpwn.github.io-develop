@@ -5,6 +5,7 @@ import { HomeComponent } from "./home/home.component";
 import { ResumedwnldComponent } from "./resumedwnld/resumedwnld.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { CreationsComponent } from "./creations/creations.component";
+import { EpioneComponent } from "./epione/epione.component";
 
 
 export const APP_ROUTES: Routes = [
@@ -12,7 +13,8 @@ export const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'resume', component: ResumedwnldComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'creations', component: CreationsComponent }
+  { path: 'creations', component: CreationsComponent },
+  { path: 'epione', component: EpioneComponent }
 ];
 
 @NgModule({

@@ -226,6 +226,12 @@
 	animation-duration: 3.5s;
 }
 
+.sectionheader2 {
+  font-size: 2.25em;
+  text-align: center;
+  font-family: Verdana;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -301,9 +307,25 @@
   font-family: Helvetica;
 }
 
-.downloader {
-	text-align: center;
-	font-size: 1.25em;
+.applogo {
+	max-width: 150px;
+	padding-top: 1.5%;
+  padding-bottom: 4%;
+}
+
+.descriptionheader1 {
+	font-size: 1.75em;
+	margin-top: 3%;
+}
+
+.abouts {
+	text-align: left;
+}
+
+.descriptiontext1 {
+	margin-top: 0.5%;
+	font-size: 1.15em;
+	max-width: 60%;
 }
 
 .downloader2 {

@@ -96,7 +96,7 @@
 	color: black;
 }
 
-.hacksaw, .hacksaw a:visited {
+.hacksaw a, .hacksaw a:visited {
 	font-size: 1.25em;
 	color: #006902;
 }
@@ -106,7 +106,7 @@
 	text-decoration: none;
 }
 
-.datonate, .datonate a:visited {
+.datonate a, .datonate a:visited {
 	font-size: 1.25em;
 	color: #3800a7;
 }
@@ -116,7 +116,7 @@
 	text-decoration: none;
 }
 
-.acidrain, .acidrain a:visited {
+.acidrain a, .acidrain a:visited {
 	font-size: 1.25em;
 	color: #ab0000;
 }
@@ -126,12 +126,22 @@
 	text-decoration: none;
 }
 
-.proxyhunt, .proxyhunt a:visited {
+.proxyhunt a, .proxyhunt a:visited {
 	font-size: 1.25em;
 	color: #ae5800;
 }
 
 .proxyhunt a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.pulse a, .pulse a:visited {
+	font-size: 1.25em;
+	color: #000000;
+}
+
+.pulse a:hover {
 	opacity: 0.5;
 	text-decoration: none;
 }
